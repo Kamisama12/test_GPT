@@ -1,3 +1,6 @@
+#test_GPT
+
+
 1.去掉了Transformer里面的encoder，实现了文本生成的框架
 2.测试了一下单机多卡的分布式训练：
    torchrun --standalone --nnodes=1 --nproc-per-node=2 myGPT.py
